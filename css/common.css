@@ -126,3 +126,27 @@ body {
   border: 1px solid #808080;
   margin-bottom: 8px;
 }
+
+.change-color {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.widget {
+  padding: 100px 88px;
+  text-align: center;
+}
+
+.widget > p {
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
