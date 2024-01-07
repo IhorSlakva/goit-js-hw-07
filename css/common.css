@@ -150,3 +150,54 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
+.container {
+  display: flex;
+  gap: 16px;
+  width: 486px;
+  height: 104px;
+  padding: 32px;
+}
+
+.boxes {
+  width: 486px;
+  height: 160px;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.input {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #808080;
+}
+
+.btn-create {
+width: 120px;
+height: 40px;
+padding: 8px 16px;
+border-radius: 8px;
+background-color: #4E75FF;
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.btn-destroy {
+  width: 120px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #FF4E4E;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
+}
