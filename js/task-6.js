@@ -13,7 +13,7 @@ createBtn.addEventListener('click', createBoxes);
 destroyBtn.addEventListener('click', destroyBoxes);
 
 function createBoxes() {
-  let value = inputEl.value;
+  let value = Number(inputEl.value);
   if (value < 1 || value > 100) {
     return;
   } else {
@@ -27,7 +27,7 @@ function createBoxes() {
       boxEl.appendChild(myElem);
       size += 10;
     }
-    value = '';
+    inputEl.value = '';
   }
 }
 

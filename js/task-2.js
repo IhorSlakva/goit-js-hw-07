@@ -32,20 +32,15 @@ const images = [
 const listEl = document.querySelector('.gallery');
 
 function createGallery(imagesArray) {
-  const arrayItems = [];
-
-  imagesArray.forEach(image => {
+    imagesArray.forEach(image => {
     const listItem = document.createElement('li');
     const imgEl = document.createElement('img');
     imgEl.setAttribute('src', image.url);
     imgEl.setAttribute('alt', image.alt);
     imgEl.classList.add('img');
     listItem.appendChild(imgEl);
-    arrayItems.push(listItem);
+    listEl.append(listItem);
   });
-
-  listEl.append(...arrayItems);
-
 }
 
 createGallery(images);
